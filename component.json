@@ -1,6 +1,6 @@
 {
   "title": "Dropscan API (Node.js)",
-  "description": "elastic.io component for the Dropscan API",
+  "description": "OIH component for the Dropscan API",
   "buildType": "docker",
   "envVars": {
     "DROPSCAN_CLIENT_KEY": {
@@ -13,7 +13,7 @@
     }
   },
   "credentials": {
-    "verifier": "verifyCredentials.js",
+    "verifier": "./verifyCredentials.js",
     "fields": {
       "oauth": {
         "label": "Authentication",
