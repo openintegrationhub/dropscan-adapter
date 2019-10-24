@@ -5,6 +5,8 @@ module.exports = verify;
 const base = "https://api.dropscan.de/v1";
 
 async function verify(credentials) {
+  console.log(JSON.stringify(credentials));
+
   try {
     const accessToken = credentials.oauth.oauth_token;
 
