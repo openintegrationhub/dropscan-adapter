@@ -8,7 +8,7 @@ async function verify(credentials) {
   console.log(JSON.stringify(credentials));
 
   try {
-    const accessToken = credentials.oauth.oauth_token;
+    const accessToken = credentials.oauth.access_token;
 
     const requestOptions = {
       uri: `${base}/scanboxes`,
