@@ -24,7 +24,7 @@
     "oauth2": {
       "client_id": "{{DROPSCAN_CLIENT_KEY}}",
       "client_secret": "{{DROPSCAN_CLIENT_SECRET}}",
-      "auth_uri": "https://secure.dropscan.de/oauth/authorize",
+      "auth_uri": "https://secure.dropscan.de/oauth/authorize?scope=list,scan,destroy",
       "token_uri": "https://secure.dropscan.de/oauth/token"
     }
   },
