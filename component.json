@@ -29,7 +29,7 @@
     }
   },
   "triggers": {
-    "getMailingsByStatus": {
+    "getScanboxes": {
       "main": "./lib/triggers/getScanboxes.js",
       "type": "polling",
       "title": "Get Scanboxes",
