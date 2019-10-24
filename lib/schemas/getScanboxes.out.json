@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "scanboxes": {
+      "type": "array",
+      "required": true,
+      "title": "Scanboxes",
+      "properties": {
+        "id": {
+          "type": "numeric",
+          "required": true,
+          "title": "id"
+        },
+        "default_recipient_id": {
+          "type": "numeric",
+          "required": true,
+          "title": "id"
+        },
+        "recipients": {
+          "type": "array",
+          "required": true,
+          "title": "Recipients",
+          "properties": {
+            "name": {
+              "type": "numeric",
+              "required": true,
+              "title": "id"
+            }
+          }
+        }
+      }
+    }
+  }
+}
