@@ -26,7 +26,6 @@ async function verify(credentials) {
       return true;
     } else {
       throw new Error("Error in validating credentials!");
-      return false;
     }
   } catch (e) {
     console.log(`${e}`);
