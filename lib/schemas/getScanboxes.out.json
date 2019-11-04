@@ -11,6 +11,11 @@
           "required": true,
           "title": "id"
         },
+        "auto_open": {
+          "type": "boolean",
+          "required": true,
+          "title": "auto_open"
+        },
         "default_recipient_id": {
           "type": "numeric",
           "required": true,

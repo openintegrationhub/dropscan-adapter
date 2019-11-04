@@ -29,12 +29,22 @@
     }
   },
   "triggers": {
-    "getScanboxes": {
-      "main": "./lib/triggers/getScanboxes.js",
-      "type": "polling",
-      "title": "Get Scanboxes",
+    "getNewScansWebhook": {
+      "main": "./lib/triggers/getNewScansWebhook.js",
+      "type": "webhook",
+      "title": "Fetch New scan (getNewScansWebhook - Webhook)",
+      "description": "Get new pdfs from Dropscan",
       "metadata": {
-        "out": "./lib/schemas/getScanboxes.out.json"
+        "out": {
+          "type": "object",
+          "property": {
+            "uuid": {
+              "type": "string",
+              "required": true,
+              "title": "UUID of scanned mailing"
+            }
+          }
+        }
       }
     }
   }
