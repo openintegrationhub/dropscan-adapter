@@ -10,13 +10,13 @@ Using the Dropscan connector users of an OIH installation can import the produce
 
 In order to use this adapter a OIH-user has to be a registered Dropscan user. Signup here on the Dropscan [homepage](https://secure.dropscan.de). The User needs to have an upgraded account with at least one active Scanbox!
 
-To enable the OAuth2-Flow please make sure the ENV variables `DROPSCAN_CLIENT_KEY` and `DROPSCAN_CLIENT_SECRET` are set. Please contact service@dropscan.de and provide an oauth-callback URL to get a KEY/SECRET-pair for your server installation to enable our RESTful API.
+To enable the OAuth2-Flow please make sure the ENV variables `DROPSCAN_CLIENT_KEY` and `DROPSCAN_CLIENT_SECRET` are set. Please contact service@dropscan.de and provide an oauth-callback URL to get a KEY/SECRET-pair for your server installation to enable our RESTful API and to set the Webhook-URL after creating a Flow.
 
-the only usecase supported by this adaper is to receive a webhook-trigger, which will emit the new 
+The only usecase supported by this connector is to receive a webhook when new scans are available and emit a new OIH document including a binary attachment of the PDF-file.
 
 ### Triggers
 
-TBD
+getNewScansWebhook
 
 ### Actions
 
