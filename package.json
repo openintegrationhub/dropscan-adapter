@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "q": "^1.4.1",
-    "elasticio-sailor-nodejs": "^2.2.1",
+    "elasticio-sailor-nodejs": "2.2.1",
     "elasticio-node": "^0.0.8",
     "co": "4.6.0",
     "request": "2.88.0",
